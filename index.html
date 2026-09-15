@@ -24,10 +24,14 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
         rel="stylesheet" />
 
+    <!-- Font Awesome — Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/contact.css" />
 
     <!-- Inline theme-init script: runs before paint to avoid flash of wrong theme -->
     <script>
@@ -482,34 +486,65 @@
                         If your project sits at the crossroads of science, communication,
                         education, or AI — reach out.
                     </p>
+
+                    <p class="contact-message-guide">
+                        <strong>How to message Amaechi:</strong><br />
+                        For enquiries, collaborations, freelance work, teaching opportunities,
+                        or professional conversations, simply reach out through WhatsApp,
+                        email, or any of the social platforms below. A short introduction
+                        and a brief description of what you would like to discuss is enough
+                        to get the conversation started.
+                    </p>
+
                     <div class="contact-methods">
-                        <div class="contact-method">
+                        <a class="contact-method" href="mailto:amaechi@example.com">
                             <span class="cm-icon">📧</span>
-                            <span>amara.okafor@example.com</span>
-                        </div>
-                        <div class="contact-method">
+                            <span>amaechi@example.com</span>
+                        </a>
+
+                        <a class="contact-method" href="tel:+234XXXXXXXXXX">
                             <span class="cm-icon">📱</span>
                             <span>+234 XXX XXX XXXX</span>
-                        </div>
+                        </a>
+
                         <div class="contact-method">
                             <span class="cm-icon">📍</span>
-                            <span>Lagos, Nigeria</span>
-                        </div>
-                        <div class="contact-method">
-                            <span class="cm-icon">🔗</span>
-                            <span>linkedin.com/in/amara-okafor</span>
+                            <span>Address: [Add professional address here]</span>
                         </div>
                     </div>
+
+                    <div class="social-links" aria-label="Social media links">
+                        <a href="https://www.linkedin.com/in/your-linkedin-username"
+                           class="social-link" target="_blank" rel="noopener noreferrer"
+                           aria-label="Amaechi on LinkedIn" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="https://wa.me/234XXXXXXXXXX"
+                           class="social-link" target="_blank" rel="noopener noreferrer"
+                           aria-label="Message Amaechi on WhatsApp" title="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/your-facebook-username"
+                           class="social-link" target="_blank" rel="noopener noreferrer"
+                           aria-label="Amaechi on Facebook" title="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/your-instagram-username"
+                           class="social-link" target="_blank" rel="noopener noreferrer"
+                           aria-label="Amaechi on Instagram" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://x.com/your-x-username"
+                           class="social-link" target="_blank" rel="noopener noreferrer"
+                           aria-label="Amaechi on X" title="X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </div>
                 </div>
-                <form class="contact-form reveal reveal-delay-1" id="contactForm">
-                    <input type="text" name="name" placeholder="Your name" required aria-label="Your name" />
-                    <input type="email" name="email" placeholder="Your email" required aria-label="Your email" />
-                    <input type="text" name="subject" placeholder="Subject" aria-label="Subject" />
-                    <textarea name="message" placeholder="Tell me about your project..." required
-                        aria-label="Your message"></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message →</button>
-                    <p id="formFeedback" role="status"></p>
-                </form>
             </div>
         </div>
     </section>
@@ -519,9 +554,20 @@
     ========================================== -->
     <footer class="footer">
         <div class="container">
-            <p>© 2025 <span>Amara Okafor</span>. Precision Meets Expression. All rights reserved.</p>
+            <p>© 2025 <span>Amaechi Assumpta</span>. Precision Meets Expression. All rights reserved.</p>
         </div>
     </footer>
+
+
+    <!-- Fixed WhatsApp Contact Button -->
+    <a href="https://wa.me/234XXXXXXXXXX"
+       class="whatsapp-float"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Contact Amaechi on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Contact Us</span>
+    </a>
 
     <!-- ==========================================
     CREDENTIAL MODAL
