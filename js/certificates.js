@@ -35,10 +35,10 @@
             title: 'Postgraduate Certificate in Education',
             subtitle: 'Science Education & Pedagogy',
             name: 'Amaechi Assumpta',
-            detail: 'Professional teaching qualification specialising in science education, curriculum design, and inclusive pedagogy for diverse learning environments.',
+            detail: 'Professional copy writing qualification specialising in science education, curriculum design, and inclusive pedagogy for diverse learning environments.',
             year: '2022',
             seal: '📜',
-            image: 'assets/certificates/teaching.jpg'
+            image: 'assets/images/copywritingcert.jpeg'
         }
     };
 
@@ -55,14 +55,6 @@
             <div class="certificate-display">
                 <img class="cert-image" src="${cert.image}" alt="${cert.title} certificate"
                      onerror="this.remove();" />
-                <div class="cert-seal">${cert.seal}</div>
-                <h4>${cert.title}</h4>
-                <div class="cert-sub">${cert.subtitle} · ${cert.year}</div>
-                <div class="cert-name">${cert.name}</div>
-                <p class="cert-detail">${cert.detail}</p>
-                <div class="cert-sig-line"></div>
-                <div class="cert-sig-label">Authorised Signature · Registrar</div>
-            </div>
         `;
 
         lastFocusedEl = document.activeElement;

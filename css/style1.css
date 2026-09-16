@@ -354,3 +354,12 @@ section:nth-of-type(even) { background: var(--off-white); }
     body { color: #000; }
     section { padding: 24px 0; break-inside: avoid; }
 }
+
+                /* <div class="cert-seal">${cert.seal}</div>
+                <h4>${cert.title}</h4>
+                <div class="cert-sub">${cert.subtitle} · ${cert.year}</div>
+                <div class="cert-name">${cert.name}</div>
+                <p class="cert-detail">${cert.detail}</p>
+                <div class="cert-sig-line"></div>
+                <div class="cert-sig-label">Authorised Signature · Registrar</div>
+            </div> */
