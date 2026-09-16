@@ -7,8 +7,8 @@
         'bsce-mls': {
             title: 'Bachelor of Science',
             subtitle: 'Medical Laboratory Science',
-            name: 'Amara Okafor',
-            detail: 'Awarded by the University of Lagos for the successful completion of the four-year Medical Laboratory Science programme, with coursework in haematology, clinical chemistry, microbiology, and immunology.',
+            name: 'Amaechi Kelechi Assumpta',
+            detail: 'Awarded by Imo State University for the successful completion of the four-year Medical Laboratory Science programme, with coursework in haematology, clinical chemistry, microbiology, and immunology.',
             year: '2020',
             seal: '🎓',
             image: 'assets/certificates/bsc-mls.jpg'
@@ -16,7 +16,7 @@
         'opticianry': {
             title: 'Opticianry Certification',
             subtitle: 'Professional Dispensing Optician',
-            name: 'Amara Okafor',
+            name: 'Amaechi Kelechi Assumpta',
             detail: 'Certified by the Nigerian Opticianry Institute for excellence in lens dispensing, frame fitting, and patient optical care. Includes advanced training in corrective lens technology and patient communication.',
             year: '2021',
             seal: '👓',
@@ -25,7 +25,7 @@
         'ai-prompt': {
             title: 'Certification in AI Prompt Engineering',
             subtitle: 'Human-AI Interaction Design',
-            name: 'Amara Okafor',
+            name: 'Amaechi Kelechi Assumpta',
             detail: 'Awarded by the AI Institute of Professional Studies for advanced proficiency in prompt design, AI workflow optimisation, and ethical AI implementation across research and creative domains.',
             year: '2024',
             seal: '🤖',
@@ -34,7 +34,7 @@
         'teaching': {
             title: 'Postgraduate Certificate in Education',
             subtitle: 'Science Education & Pedagogy',
-            name: 'Amara Okafor',
+            name: 'Amaechi Assumpta',
             detail: 'Professional teaching qualification specialising in science education, curriculum design, and inclusive pedagogy for diverse learning environments.',
             year: '2022',
             seal: '📜',
