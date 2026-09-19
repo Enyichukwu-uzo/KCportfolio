@@ -11,7 +11,7 @@
             detail: 'Awarded by Imo State University for the successful completion of the four-year Medical Laboratory Science programme, with coursework in haematology, clinical chemistry, microbiology, and immunology.',
             year: '2020',
             seal: '🎓',
-            image: 'assets/certificates/bsc-mls.jpg'
+            image: 'assets/images/BMLS.jpg'
         },
         'opticianry': {
             title: 'Opticianry Certification',
@@ -20,7 +20,7 @@
             detail: 'Certified by the Nigerian Opticianry Institute for excellence in lens dispensing, frame fitting, and patient optical care. Includes advanced training in corrective lens technology and patient communication.',
             year: '2021',
             seal: '👓',
-            image: 'assets/certificates/opticianry.jpg'
+            image: 'assets/images/HND_CERTIFICATE.jpg'
         },
         'ai-prompt': {
             title: 'Certification in AI Prompt Engineering',

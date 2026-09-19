@@ -73,26 +73,26 @@
     // CONTACT FORM (front-end only — wire up
     // Formspree/EmailJS/your backend here)
     // ────────────────────────────────────────
-    const contactForm = document.getElementById('contactForm');
-    contactForm.addEventListener('submit', function (e) {
-        e.preventDefault();
-        const form = e.target;
-        const feedback = document.getElementById('formFeedback');
-        const name = form.querySelector('input[name="name"]').value.trim();
-        const email = form.querySelector('input[name="email"]').value.trim();
+    // const contactForm = document.getElementById('contactForm');
+    // contactForm.addEventListener('submit', function (e) {
+    //     e.preventDefault();
+    //     const form = e.target;
+    //     const feedback = document.getElementById('formFeedback');
+    //     const name = form.querySelector('input[name="name"]').value.trim();
+    //     const email = form.querySelector('input[name="email"]').value.trim();
 
-        if (!name || !email) {
-            feedback.textContent = 'Please fill in your name and email.';
-            feedback.style.color = '#e53e3e';
-            return;
-        }
+    //     if (!name || !email) {
+    //         feedback.textContent = 'Please fill in your name and email.';
+    //         feedback.style.color = '#e53e3e';
+    //         return;
+    //     }
 
-        feedback.textContent = `Thank you, ${name}! Your message has been received. I'll get back to you at ${email} within 48 hours.`;
-        feedback.style.color = 'var(--accent-gold-deep)';
-        form.reset();
+    //     feedback.textContent = `Thank you, ${name}! Your message has been received. I'll get back to you at ${email} within 48 hours.`;
+    //     feedback.style.color = 'var(--accent-gold-deep)';
+    //     form.reset();
 
-        setTimeout(() => { feedback.textContent = ''; }, 6000);
-    });
+    //     setTimeout(() => { feedback.textContent = ''; }, 6000);
+    // });
 
     console.log('%c🔬 Precision Meets Expression ✨', 'font-size: 16px; font-weight: bold; color: #c0392b;');
     console.log('%cAmaechi Assumpta — Copywriter · Educator · Optician · MLS · AI Prompt Engineer', 'font-size: 12px; color: #736556;');
