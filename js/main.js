@@ -95,5 +95,5 @@
     // });
 
     console.log('%c🔬 Precision Meets Expression ✨', 'font-size: 16px; font-weight: bold; color: #c0392b;');
-    console.log('%cAmaechi Assumpta — Copywriter · Educator · Optician · MLS · AI Prompt Engineer', 'font-size: 12px; color: #736556;');
+    console.log('%cAmaechi Kelechi Assumpta — Copywriter · Educator · Optician · MLS · AI Prompt Engineer', 'font-size: 12px; color: #736556;');
 })();
